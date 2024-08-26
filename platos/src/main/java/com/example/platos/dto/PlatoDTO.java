@@ -11,7 +11,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class PlatoDTO {
 
-    private String nombre;
+    private String nombrePlato;
     private Double precio;
     private String descripcion;
 }

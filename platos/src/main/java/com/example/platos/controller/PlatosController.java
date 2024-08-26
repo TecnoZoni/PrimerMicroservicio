@@ -20,7 +20,7 @@ public class PlatosController {
 
     @PostMapping("/crear")
     public String crearIngrediente(@RequestBody PlatoDTO plato) {
-        platoServ.savePlato(plato.getNombre(), plato.getPrecio(), plato.getDescripcion());
+        platoServ.savePlato(plato.getNombrePlato(), plato.getPrecio(), plato.getDescripcion());
         return "Plato guardado correctamente";
     }
 
